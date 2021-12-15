@@ -5,7 +5,7 @@ class Capital:
         a1=a[0].capitalize()+a[1:-1]+a[-1].capitalize()
         print(a1)
 
-a='green'
+a='green is'
 p1=Capital()
 p1.cap_f_l(a)
 print("-----------------------------")
