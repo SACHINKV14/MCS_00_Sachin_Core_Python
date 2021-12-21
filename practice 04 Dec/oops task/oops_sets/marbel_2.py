@@ -28,8 +28,8 @@ def fav_color_names(num_of_fav_colors):
 def shuffling_distributing(marbels):
     shuffled_colors = marbels.copy()
     random.shuffle(shuffled_colors)
-    player1_color = [k1 for k1 in shuffled_colors if k1 in shuffled_colors[::2]]
-    player2_color = [k2 for k2 in shuffled_colors if k2 in shuffled_colors[1::2]]
+    player1_color = [k1 for k1 in shuffled_colors[::2]]
+    player2_color = [k2 for k2 in shuffled_colors[1::2]]
     p1_colors = set(player1_color)
     p2_colors = set(player2_color)
     return p1_colors,p2_colors
@@ -47,15 +47,15 @@ def score_count(player1_colors,player2_colors):
 def game_result(p1_count,p2_count):
     print("------Result-------")
     if p1_count>p2_count:
-        print("Player 1 won")
+        print("\tPlayer 1 won")
     elif p1_count<p2_count:
-        print("Player 2 won")
+        print("\tPlayer 2 won")
     else:
         print("Tie")
     print("------Result-------")
 
 
-
+#main
 total_colors=color_names(8)
 marbels=list(total_colors)
 print(total_colors)
@@ -85,4 +85,4 @@ print("-----------------------------")
 game_result(p1_count,p2_count)
 
 
-#
+

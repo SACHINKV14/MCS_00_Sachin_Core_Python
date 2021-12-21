@@ -1,8 +1,5 @@
 class Dictsum:
-    def __init__(self):
-        pass
     def sum_key(self,dictA,dictB):
-        # dictC=dict
         for key in dictB:
             if key in dictA:
                 dictB[key] = dictB[key] + dictA[key]
