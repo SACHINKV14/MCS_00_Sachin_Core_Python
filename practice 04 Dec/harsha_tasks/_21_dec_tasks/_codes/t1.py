@@ -9,4 +9,11 @@ def foo(output, open, close, pairs):
             foo(output+')', open, close+1, pairs)
     # print(len(output))
 
-foo('', 0, 0, 3)
+foo('', 0, 0, 4)
+"""
+((()))
+(()())
+(())()
+()(())
+()()()
+"""
