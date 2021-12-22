@@ -6,6 +6,7 @@ Given a string s, return the longest palindromic substring in s'''
 
 def palindromes(text):
     text = text.lower()
+    text = text.replace(" ","")
     results = []
     for i in range(len(text)):    #0 to len(str)
         for j in range(0, i):
