@@ -1,0 +1,7 @@
+t=((1,'a'), (2,'b'))
+d1=dict(t)
+print(d1)
+print("-------------------")
+t=((1,'a'), (2,'b'))
+d2=dict((y, x) for x, y in t)
+print(d2)

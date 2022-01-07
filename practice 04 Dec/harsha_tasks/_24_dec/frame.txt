@@ -1,0 +1,4 @@
+dog is dog and cat is cat
+these are domestic animals
+animals are two types	one type is carinivorus and other is herbivorous
+third type also exists	it is omnivorus
