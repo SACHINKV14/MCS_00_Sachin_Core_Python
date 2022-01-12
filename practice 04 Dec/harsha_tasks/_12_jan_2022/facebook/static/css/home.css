@@ -1,0 +1,19 @@
+body {
+background-color:blue;
+text-align:center;
+}
+span{
+font-color:red;
+font-size:2.0em;
+}
+h1{
+text-align:center;
+font-size:50px;
+background-color:blue;
+}
+a {
+font-size:35px;
+padding: 20px;
+font-align:center;
+color:white;
+}
