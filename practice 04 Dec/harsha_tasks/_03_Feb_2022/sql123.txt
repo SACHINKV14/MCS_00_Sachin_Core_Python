@@ -1,0 +1,158 @@
+CREATE DATABASE employeedetails;
+USE employeedetails;
+CREATE TABLE employees(
+PersonId int,
+FirstName varchar(255),
+SecondName varchar(255),
+Address varchar(255),
+Salary float,
+City varchar(255)
+);
+
+SHOW tables;
+select * from employees
+
+INSERT INTO employees(PersonId,FirstName,SecondName,Address,Salary,City)
+VALUES (085,"sachin","kv","blr 35",25,"blr");
+INSERT INTO employees(PersonId,FirstName,SecondName,Address,Salary,City)
+VALUES (087,"imrani","s","hyd 35",25,"hyd");
+INSERT INTO employees(PersonId,FirstName,SecondName,Address,Salary,City)
+VALUES (057,"rakesh","r","blr 35",25,"blr");
+
+select * from employees
+
+ALTER TABLE employees ADD Pincode int;
+
+ALTER TABLE employees RENAME COLUMN Pincode TO ZIPCODE;
+-- DROP TABLE employees
+
+
+ALTER TABLE employees DROP COLUMN Address;
+
+-- INSERT INTO employees COLUMN(PersonId,FirstName,SecondName,Address,Salary,City)
+-- VALUES (057,"rakesh","r","blr 35",25,"blr");
+
+UPDATE employees SET ZIPCODE=35 WHERE PersonId=85;
+select * from employees
+UPDATE employees SET ZIPCODE=85 WHERE PersonId=87;
+select * from employees
+UPDATE employees SET ZIPCODE=90 WHERE PersonId=57;
+select * from employees
+
+
+select FirstName,SecondName from employees
+
+select PersonId,Firstname from employees
+
+select * from employees WHERE City="blr";
+
+select DISTINCT City FROM employees
+select * from employees WHERE City="blr";
+
+select * from employees WHERE City="blr" or SecondName="s";
+
+select * from employees WHERE City="blr" and ZIPCODE=85;
+
+select * from employees WHERE SecondName="r" or ZIPCODE=85;
+
+select * from employees WHERE City IN ("blr","hyd") 
+
+select * from employees WHERE City NOT IN ("hyd") 
+
+select * from employees WHERE ZIPCODE BETWEEN 20 AND 86
+
+select * from employees WHERE Firstname LIKE '%h' 
+
+select * from employees LIMIT 2
+
+select * from employees WHERE ZIPCODE IS NULL 
+
+select * from employees WHERE SecondName IS NOT NULL 
+
+select * from employees WHERE City="blr"  ORDER BY SecondName
+select * from employees WHERE City="blr"  ORDER BY FirstName
+
+select COUNT(PersonId), City FROM employees GROUP BY City
+
+select COUNT(PersonId), City FROM employees GROUP BY City ORDER BY COUNT(PersonId) DESC  
+select COUNT(PersonId), City FROM employees GROUP BY City ORDER BY COUNT(PersonId) ASC
+
+select COUNT(PersonId), City FROM employees GROUP BY City HAVING COUNT(PersonId)=2
+
+select COUNT(PersonId), City FROM employees GROUP BY City ORDER BY COUNT(PersonId) DESC
+
+select FROM employees GROUP BY City ORDER BY COUNT(PersonId) DESC
+
+-- 17 and 18 have to do
+
+-- INSERT
+
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City) 
+VALUES (086,"karthik","k",25,"blr");
+select * from employees
+
+UPDATE employees SET ZIPCODE=35 WHERE PersonId=86;
+
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City,ZIPCODE) 
+VALUES (088,"abhi","s",25,"mand",55);
+
+INSERT INTO employees VALUES (055,"rakshitha","s",25,"tum",01)
+
+INSERT INTO employees VALUES (056,"shital","g",25,"kolk",98),(001,"bhavesh","kumar",25,"udu",20),(002,"karthik","k n",25,"tam",18)
+
+-- INSERT IGNORE INTO employees("email") VALUES (
+select * from employees
+
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City,ZIPCODE) 
+VALUES (003,"karthik","raja",25,"tam",35);
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City,ZIPCODE) 
+VALUES (003,"karthik","raja",25,"tam",100);
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City,ZIPCODE) 
+VALUES (003,"karthik","raja",25,"tam",101);
+INSERT INTO employees (PersonId,FirstName,SecondName,Salary,City,ZIPCODE) 
+VALUES (003,"karthik","raja",25,"tam",102);
+
+-- DELETE
+
+DELETE FROM employees where ZIPCODE=100; 
+DELETE FROM employees where ZIPCODE=100 or ZIPCODE=101; 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
