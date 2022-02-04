@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>adminlogin</title>
+</head>
+<body bgcolor="cyan">
+
+<form  method='POST'>
+  {% csrf_token %}
+    <div >
+        <center>
+            <h1>Admin Log In</h1>
+           <label>AdminUserName : </label>
+            <input type="text" placeholder="Enter Admin User Name" name="adminusername" required><br><br>
+            <label>AdminPassword : </label>
+            <input type="password" placeholder="Enter Admin Password" name="adminpassword" required><br><br>
+            <input type="submit" name="adminlogin" value="login"><br><br>
+
+    </center>
+    </div>
+</form>
+</body>
+</html>
+
+<center>
+
+{% for j in messages %}
+    {{j}}
+
+    {% endfor %}
+
+</center>
+

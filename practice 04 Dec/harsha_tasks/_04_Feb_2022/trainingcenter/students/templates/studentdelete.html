@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <h1>student delete</h1>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Delete student Details </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label>StudentId : </label>
+            <input type="text" placeholder="Enter Student Id to delete" name="studentid" required>
+
+            <br><br><br>
+            <input type="submit" name="sdelete" value="delete"><br><br>
+        </div>
+        </center>
+    </form>
+
+
+        <center>
+    <h1>Students Available</h1>
+<table border="solid">
+
+    <tr>
+        <th> Id </th>
+        <th> User Name </th>
+        <th> First Name </th>
+        <th> Second Name </th>
+        <th> Phone Number </th>
+        <th> Password </th>
+    </tr>
+
+    {% for i in context %}
+    <tr>
+        <td>{{i.id}}</td>
+        <td>{{i.username}}</td>
+        <td>{{i.firstname}}</td>
+        <td>{{i.secondname}}</td>
+        <td>{{i.phonenumber}}</td>
+        <td>{{i.password}}</td>
+
+    </tr>
+    {% endfor %}
+
+</table>
+</center>
+
+
+
+
+
+
+</body>
+</html>

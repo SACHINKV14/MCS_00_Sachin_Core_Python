@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Student Registration Form </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label>Firstname : </label>
+            <input type="text" placeholder="Enter Firstname" name="firstname" required><br><br>
+            <label>Secondname : </label>
+            <input type="text" placeholder="Enter Secondname" name="secondname" required><br><br>
+            <label>Phonenumber : </label>
+            <input type="text" placeholder="Enter Phonenumber" name="phonenumber" required><br><br>
+            <label>username : </label>
+            <input type="text" placeholder="Enter Username" name="username" required><br><br>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="password" required><br><br>
+            <label>CPassword : </label>
+            <input type="password" placeholder="Re-enter Password" name="cpassword" required><br><br>
+
+            <input type="submit" name="registers"><br><br>
+<!--            <input type="checkbox" checked="checked"> Remember me-->
+<!--            <button type="button" class="cancelbtn"> Cancel</button>-->
+<!--            Forgot <a href="#"> password? </a>-->
+        </div>
+        </center>
+    </form>
+
+    <center>
+        {{context}}
+            {{val}}
+    </center>
+
+
+
+
+</body>
+</html>

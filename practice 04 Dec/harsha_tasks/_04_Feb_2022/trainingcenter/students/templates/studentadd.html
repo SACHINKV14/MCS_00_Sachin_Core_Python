@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Student add </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label>FirstName : </label>
+            <input type="text" placeholder="Enter Firstname" name="firstnamea" required>
+            <label>SecondName : </label>
+            <input type="text" placeholder="Enter Secondname" name="secondnamea" required><br><br>
+            <label>PhoneNumber : </label>
+            <input type="text" placeholder="Enter Phonenumber" name="phonenumbera" required>
+            <label>UserName : </label>
+            <input type="text" placeholder="Enter Username" name="usernamea" required><br><br>
+            <label>Password : </label>
+            <input type="password" placeholder="Enter Password" name="passworda" required>
+            <label>CPassword : </label>
+            <input type="password" placeholder="Re-enter Password" name="cpassworda" required><br><br>
+
+            <input type="submit" name="addstudent"><br><br>
+
+        </div>
+        </center>
+    </form>
+<center>
+{% for j in messages %}
+    {{j}}
+
+    {% endfor %}
+</center>
+
+        <center>
+    <h1>Students Available</h1>
+<table border="solid">
+
+    <tr>
+        <th> Id </th>
+        <th> User Name </th>
+        <th> First Name </th>
+        <th> Second Name </th>
+        <th> Phone Number </th>
+        <th> Password </th>
+    </tr>
+
+    {% for i in context %}
+    <tr>
+        <td>{{i.id}}</td>
+        <td>{{i.username}}</td>
+        <td>{{i.firstname}}</td>
+        <td>{{i.secondname}}</td>
+        <td>{{i.phonenumber}}</td>
+        <td>{{i.password}}</td>
+
+    </tr>
+    {% endfor %}
+
+</table>
+</center>
+
+
+
+</body>
+</html>
+

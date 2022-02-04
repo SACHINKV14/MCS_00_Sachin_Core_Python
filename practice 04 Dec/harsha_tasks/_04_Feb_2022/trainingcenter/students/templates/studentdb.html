@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+<form method="POST">
+    {% csrf_token %}
+<center>
+    <h1>Admin Student DB Edit Page</h1>
+    <input type="submit" name="studentadd" value="studentadd">&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" name="studentdelete" value="studentdelete">&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" name="studentupdate" value="studentupdate">&nbsp&nbsp&nbsp&nbsp
+
+
+</center>
+    </form>
+</center>
+    </form>
+
+<center>
+    <h1>Students Lists</h1>
+<table border="solid">
+
+    <tr>
+        <th> User Name </th>
+        <th> First Name </th>
+        <th> Second Name </th>
+        <th> Phone Number </th>
+        <th> Password </th>
+
+    </tr>
+
+    {% for i in context %}
+    <tr>
+        <td>{{i.username}}</td>
+        <td>{{i.firstname}}</td>
+        <td>{{i.secondname}}</td>
+        <td>{{i.phonenumber}}</td>
+        <td>{{i.password}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+</center>
+
+
+</body>
+</html>
