@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>getcall</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Get Call From Our Team </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label> Name : </label>
+            <input type="text" placeholder="Enter Your Name" name="yourname" required><br><br>
+            <label> Email Id: </label>
+            <input type="text" placeholder="Enter Your Email Id" name="yourmailid" required><br><br>
+            <label> PhoneNumber : </label>
+            <input type="text" placeholder="Enter Phonenumber" name="phonenumber" required><br><br>
+
+            <input type="submit" name="getinfonow" value="getcallnow">
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <input type="submit" name="registernow" value="registernow">
+
+        </div>
+        </center>
+    </form>
+
+    <center>
+        {{context}}
+            {{val}}
+    </center>
+
+
+
+
+</body>
+</html>

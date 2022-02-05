@@ -43,13 +43,13 @@ def myfu(str1,split,fill):
         list1[-1]=ls
     print(list1)
 
-# s = "abcdefg"
-# k = 3
-# fill = "x"
-
-s = "abcdefghij"
+s = "abcdefg"
 k = 3
 fill = "x"
+
+# s = "abcdefghij"
+# k = 3
+# fill = "x"
 
 myfu(s,k,fill)
 

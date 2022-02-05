@@ -7,26 +7,26 @@ Input: candies = 10, num_people = 3
 Output: [5,2,3]
 """
 
-
 class Solution:
     def distributeCandies(self, candies: int, num_people: int):
-        list1 = []
-        count = 0
-        for x in range(1, candies+1,3):
-            list2 = []
-            for y in range(x, x + 3):
-                if count < candies :
-                    count += y
-                    list2.append(y)
-                else:
-                    break
-            if list2:
-                list1.append(list2)
-        return list1
+        lst=[]
+        a=0
+        while sum(lst)<candies:
+            a+=1
+            lst.append(a)
+        print(lst)
+        dict1={}
+        for i in range(1,num_people+1):
+            dict1[i]=sum(lst[i-1::num_people])
+        res=list(dict1.values())
+        print(res)
 
 
-candies = 10
-num_people = 3
+# candies = 10
+# num_people = 3
+
+candies = 7
+num_people = 4
+
 s1=Solution()
 lst=s1.distributeCandies(candies,num_people)
-

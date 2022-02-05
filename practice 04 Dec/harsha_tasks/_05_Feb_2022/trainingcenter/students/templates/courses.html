@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Add Course Details </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label>Firstname : </label>
+            <input type="text" placeholder="Enter coursename" name="coursename" required><br><br>
+            <label>Secondname : </label>
+            <input type="text" placeholder="Enter coursefees" name="coursefees" required><br><br>
+            <label>Phonenumber : </label>
+            <input type="text" placeholder="Enter coursehours" name="coursehours" required><br><br>
+            <label>username : </label>
+            <input type="text" placeholder="Enter trainer" name="trainer" required><br><br>
+
+            <input type="submit" name="add"><br><br>
+        </div>
+        </center>
+    </form>
+
+    <center>
+
+    </center>
+
+
+
+
+</body>
+</html>

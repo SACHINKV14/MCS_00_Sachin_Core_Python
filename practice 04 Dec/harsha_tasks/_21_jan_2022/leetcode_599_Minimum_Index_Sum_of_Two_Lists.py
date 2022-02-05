@@ -33,6 +33,7 @@ class Solution:
 
 # list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]
 # list2 = ["Piatti", "The Grill at Torrey Pines","Hungry Hunter Steakhouse", "Shogun"]
+
 list1 = ["Shogun","Tapioca Express","Burger King","KFC"]
 list2 = ["KFC","Shogun","Burger King"]
 

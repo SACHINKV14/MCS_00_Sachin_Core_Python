@@ -15,7 +15,7 @@ Input: n = 13
 Output: 2
 Explanation: 13 = 4 + 9.
 '''
-n=12
+n=36
 lst=[]
 a=0
 while a<n:

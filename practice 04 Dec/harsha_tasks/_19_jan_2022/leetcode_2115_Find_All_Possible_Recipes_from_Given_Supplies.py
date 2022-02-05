@@ -29,3 +29,8 @@ We can create "sandwich" since we have the ingredient "meat" and can create the 
 We can create "burger" since we have the ingredient "meat" and can create the ingredients "bread" and "sandwich".
 
 """
+
+
+recipes = ["bread"]
+ingredients = [["yeast","flour"]]
+supplies = ["yeast","flour","corn"]

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Delete Course Details </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label>CourseId : </label>
+            <input type="text" placeholder="Enter Course Id to delete" name="courseid" required>
+
+            <br><br><br>
+            <input type="submit" name="delete" value="delete"><br><br>
+        </div>
+        </center>
+    </form>
+
+
+        <center>
+    <h1>Courses Available</h1>
+<table border="solid">
+
+    <tr>
+        <th> Id </th>
+        <th> Course Name </th>
+        <th> Fees </th>
+        <th> Trainer </th>
+        <th> Hours </th>
+    </tr>
+
+    {% for i in context %}
+    <tr>
+        <td>{{i.id}}</td>
+        <td>{{i.coursename}}</td>
+        <td>{{i.coursefees}}</td>
+        <td>{{i.trainer}}</td>
+        <td>{{i.hours}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+</center>
+
+
+
+
+
+
+</body>
+</html>

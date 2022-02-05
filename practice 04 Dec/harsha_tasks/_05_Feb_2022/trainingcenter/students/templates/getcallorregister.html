@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GetCallorRegister</title>
+</head>
+<body bgcolor="cyan">
+
+<form  method='POST'>
+  {% csrf_token %}
+    <div >
+        <center>
+            <h1>Get Call or Register</h1>
+           <label> Course Id Number : </label>
+            <input type="text" placeholder="Enter Course Id" name="courseidnum" required><br><br>
+
+
+            <input type="submit" name="getcall" value="getcall"><br><br>
+            <input type="submit" name="registertocourse" value="register to course"><br><br>
+
+    </center>
+    </div>
+</form>
+</body>
+</html>
+
+<center>
+
+{% for j in messages %}
+    {{j}}
+
+    {% endfor %}
+
+</center>
+

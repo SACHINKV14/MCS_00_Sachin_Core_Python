@@ -13,3 +13,5 @@ Example 3:
 Input: hour = 3, minutes = 15
 Output: 7.5
 """
+
+{1:5,2:10}

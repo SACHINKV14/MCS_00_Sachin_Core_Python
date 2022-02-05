@@ -40,5 +40,5 @@ def calculate(arg):
             sum+=y
     print(sum)
 
-calculate(10)
+calculate(20)
 

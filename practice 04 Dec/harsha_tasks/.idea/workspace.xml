@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e9ce382e-9057-4442-863a-c46fff729514" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../_17_Iterator_Generator/self_notes/list_comprehention_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jan_2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_268_Missing_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_66_Plus_One.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_67_Add_Binary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_89_Gray_Code.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_CoprimeNumberCombinations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_CoprimeNumbers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_149.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_202_Happy_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_204_Count_Primes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_258_Add_Digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_263_Ugly_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_264_Ugly_Number_II.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_279_Perfect_Squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09_jan_2022/_sublist_number_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../_17_Iterator_Generator/self_notes/_sublist_number_generation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_03_jan_2021/_recursive_functions/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/_03_jan_2021/_recursive_functions/permutation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_22_dec_task/palindrome_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/_22_dec_task/palindrome_task.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="23YEEVtLgQaWyDkxytZ5D2KmFyT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\PycharmProjects\MCS_00_Sachin_Core_Python\practice 04 Dec\harsha_tasks\_13_jan_2022" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.standout_leetcode_264_Ugly_Number_II">
+    <configuration name="standout_leetcode_263_Ugly_Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="harsha_tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_13_jan_2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_263_Ugly_Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="standout_leetcode_264_Ugly_Number_II" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="harsha_tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_13_jan_2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_264_Ugly_Number_II.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="standout_leetcode_279_Perfect_Squares" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="harsha_tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_13_jan_2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_279_Perfect_Squares.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.standout_leetcode_264_Ugly_Number_II" />
+        <item itemvalue="Python.standout_leetcode_263_Ugly_Number" />
+        <item itemvalue="Python.standout_leetcode_279_Perfect_Squares" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9ce382e-9057-4442-863a-c46fff729514" name="Changes" comment="" />
+      <created>1641902508917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641902508917</updated>
+    </task>
+    <servers />
+  </component>
+</project>

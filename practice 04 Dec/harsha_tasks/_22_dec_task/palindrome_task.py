@@ -1,20 +1,27 @@
-'''214. Shortest Palindrome
-Hard
-
-You are given a string s. You can convert s to a palindrome by adding characters in front of it.
-
-Return the shortest palindrome you can find by performing this transformation.'''
-
-class Solution:
-    def palindrome_str(self,str1):
-        if str1 == str1[::-1]:
-            print(f'entered str \"{str1}\" is a palindrome')
-        else:
-            str2 = str1[-1:0:-1] + str1
-            print(f'original string:{str1}\n'
-                  f'string converted to palindrome:{str2}')
+''' leetcode
+5. Longest Palindromic Substring
+Medium
+Given a string s, return the longest palindromic substring in s'''
 
 
-str1=input("enter the string:")
-s1=Solution()
-s1.palindrome_str(str1)
+def palindromes(text):
+    text = text.lower()
+    text = text.replace(" ","")
+    results = []
+    for i in range(len(text)):    #0 to len(str)
+        for j in range(0, i):
+            txt1 = text[j:i + 1]
+            if txt1 == txt1[::-1] and txt1 not in results:
+                results.append(txt1)
+    return results
+
+text = input("enter the string:")
+res = palindromes(text)
+
+longest_palindrome = [x for x in sorted(res, key=len, reverse=True)]
+if len(longest_palindrome)==0:
+    print('\"no palindrome substring\"')
+else:
+    print(f'palindromic substrings are:{res}')
+    print(f'number of palindrome substrings are:{len(longest_palindrome)}')
+    print(f'first longest palindrome substring in given string is:{longest_palindrome[0]}')

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body bgcolor="cyan">
+<form method="POST">
+    {% csrf_token %}
+<center>
+    <h1>Admin Cources DB Edit Page</h1>
+    <input type="submit" name="courseadd" value="courseadd">&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" name="coursedelete" value="coursedelete">&nbsp&nbsp&nbsp&nbsp
+    <input type="submit" name="courseupdate" value="courseupdate">&nbsp&nbsp&nbsp&nbsp
+
+
+
+
+
+</center>
+    </form>
+
+<center>
+    <h1>Courses Available</h1>
+<table border="solid">
+
+    <tr>
+        <th> Course Name </th>
+        <th> Fees </th>
+        <th> Trainer </th>
+        <th> Hours </th>
+    </tr>
+
+    {% for i in context %}
+    <tr>
+        <td>{{i.coursename}}</td>
+        <td>{{i.coursefees}}</td>
+        <td>{{i.trainer}}</td>
+        <td>{{i.hours}}</td>
+    </tr>
+    {% endfor %}
+
+</table>
+</center>
+</body>
+</html>

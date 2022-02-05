@@ -5,19 +5,8 @@ Co-prime numbers are the numbers whose common factor is only 1.
 class Coprime:
     def find_coprime(self,num1,num2):
         num = max(num1, num2)
-        print(num)
-        lst1 = []
-        lst2 = []
-        for i in range(1, num1 + 1):
-            if num1 % i == 0:
-                lst1.append(i)
-        # print(f'Divisors of {num1} is :{lst1}')
-        for j in range(1, num2 + 1):
-            if num2 % j == 0:
-                lst2.append(j)
-        # print(f'Divisors of {num2} is :{lst2}')
+        # print(num)
         lst3 = []
-
         for k in range(1, num + 1):
             if num1 % k == 0 and num2 % k == 0:
                 lst3.append(k)

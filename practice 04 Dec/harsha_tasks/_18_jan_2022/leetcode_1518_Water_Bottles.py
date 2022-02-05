@@ -30,6 +30,12 @@ class Solution:
 numBottles = 10001
 numExchange = 2
 
+# numBottles = 15
+# numExchange = 4
+
+# numBottles = 9
+# numExchange = 3
+
 s1=Solution()
 s1.water_bottles(numBottles,numExchange)
 
@@ -42,6 +48,6 @@ def water(fill,empty):
         if len(x)== empty:
             count+=1
     print(count)
-water(10001,2)
+water(15,4)
 
 

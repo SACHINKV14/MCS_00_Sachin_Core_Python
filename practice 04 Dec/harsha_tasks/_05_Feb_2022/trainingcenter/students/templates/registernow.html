@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registernowonly</title>
+</head>
+<body bgcolor="cyan">
+    <center> <h1> Register to the Course </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label> Course Id : </label>
+            <input type="text" placeholder="Enter Course Id to Register" name="courseidrgister" required><br><br>
+
+            <label> Name : </label>
+            <input type="text" placeholder="Enter Your Name" name="yourname" required><br><br>
+            <label> Email Id: </label>
+            <input type="text" placeholder="Enter Your Email Id" name="yourmailid" required><br><br>
+            <label> PhoneNumber : </label>
+            <input type="text" placeholder="Enter Phonenumber" name="phonenumber" required><br><br>
+
+
+            <input type="submit" name="registernowonly" value="registernow">
+
+        </div>
+        </center>
+    </form>
+
+    <center>
+        {{context}}
+            {{val}}
+    </center>
+
+
+
+
+</body>
+</html>

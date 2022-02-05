@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>registernow</title>
+</head>
+<body bgcolor="cyan">
+
+    <center> <h1> Register to the Course </h1> </center>
+    <form method="POST">
+        <center>
+            {% csrf_token %}
+        <div class="container">
+            <label> Course Id : </label>
+            <input type="text" placeholder="Enter Course Id to Register" name="courseidrgister" required><br><br>
+
+
+            <input type="submit" name="registertocourse" value="registernow">
+
+        </div>
+        </center>
+    </form>
+
+    <center>
+        {{context}}
+            {{val}}
+    </center>
+
+
