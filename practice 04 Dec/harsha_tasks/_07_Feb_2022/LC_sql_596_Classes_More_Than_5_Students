@@ -1,0 +1,25 @@
+CREATE DATABASE coursesdetails;
+USE coursesdetails;
+create table cources(
+student varchar(255),
+class varchar(255)
+
+);
+SHOW tables;
+select * from cources
+
+INSERT INTO cources VALUES
+("B","English"),
+("C","Math"),
+("D","Biology"),
+("E","Math"),
+("A","Math"),
+("F","Computer"),
+("G","Math"),
+("H","Math"),
+("I","Math");
+
+-- select COUNT(student),class from cources GROUP BY class ORDER BY COUNT(student) DESC ;
+select class from cources GROUP BY class ORDER BY COUNT(student) DESC limit 1;
+
+
