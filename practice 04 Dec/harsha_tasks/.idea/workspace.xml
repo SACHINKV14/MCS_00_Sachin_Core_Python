@@ -2,33 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e9ce382e-9057-4442-863a-c46fff729514" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../_17_Iterator_Generator/self_notes/list_comprehention_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jan_2022/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_268_Missing_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_66_Plus_One.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_67_Add_Binary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_12_jan_2022/standout_leetcode_89_Gray_Code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_CoprimeNumberCombinations.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_CoprimeNumbers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_149.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_202_Happy_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_204_Count_Primes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_258_Add_Digits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_263_Ugly_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_264_Ugly_Number_II.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/_13_jan_2022/standout_leetcode_279_Perfect_Squares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_jan_2022/_sublist_number_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../_17_Iterator_Generator/self_notes/_sublist_number_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_03_jan_2021/_recursive_functions/permutation.py" beforeDir="false" afterPath="$PROJECT_DIR$/_03_jan_2021/_recursive_functions/permutation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_22_dec_task/palindrome_task.py" beforeDir="false" afterPath="$PROJECT_DIR$/_22_dec_task/palindrome_task.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/LC_1071_Greatest_Common_Divisor_of_Strings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/database1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/scemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/fastapi_harsha_task/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/Controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_10_Feb_2022/student_fastapi/utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/database.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/schemas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_11_Feb_2022/utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_Feb_2022/HR_15_Feb.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_15_Feb_2022/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,28 @@
       <recent name="C:\Users\Admin\PycharmProjects\MCS_00_Sachin_Core_Python\practice 04 Dec\harsha_tasks\_13_jan_2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.standout_leetcode_264_Ugly_Number_II">
+  <component name="RunManager" selected="Python.HR_15_Feb">
+    <configuration name="HR_15_Feb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="harsha_tasks" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_15_Feb_2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_15_Feb_2022/HR_15_Feb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="standout_leetcode_263_Ugly_Number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="harsha_tasks" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -127,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.HR_15_Feb" />
         <item itemvalue="Python.standout_leetcode_264_Ugly_Number_II" />
         <item itemvalue="Python.standout_leetcode_263_Ugly_Number" />
         <item itemvalue="Python.standout_leetcode_279_Perfect_Squares" />
