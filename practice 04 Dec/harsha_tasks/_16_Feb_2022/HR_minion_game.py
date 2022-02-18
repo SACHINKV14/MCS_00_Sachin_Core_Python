@@ -12,7 +12,7 @@ def minion_game(string):
     lst=[]
     lst_stuart = []
     lst_kevin = []
-    vowels = "aeiou"
+    vowels = "AEIOU"
     for i in range(0,len(string)):
         for j in range(i+1,len(string)+1):
             a=string[i:j]
@@ -31,8 +31,12 @@ def minion_game(string):
         print("Stuart",s_score)
     elif s_score<k_score:
         print("Kevin",k_score)
+    elif s_score == k_score:
+        print("Draw")
+    else:
+        print("Draw")
 
 if __name__ == '__main__':
     # s = input()
-    s="banana"
+    s="BANANA"
     minion_game(s)
