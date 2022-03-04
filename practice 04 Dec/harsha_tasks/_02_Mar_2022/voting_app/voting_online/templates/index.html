@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<center>
+    <h1>Vote for your favorite</h1>
+    <h1>IPL team</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        <br>
+        <input type="submit" name="id1" value="RCB">
+        <input type="submit" name="id1" value="MI">
+        <input type="submit" name="id1" value="CSK">
+        <input type="submit" name="id1" value="DC">
+        <input type="submit" name="id1" value="PBSK">
+        <input type="submit" name="id1" value="KKR">
+        <input type="submit" name="id1" value="RR">
+        <input type="submit" name="id1" value="SRH">
+        <input type="submit" name="id1" value="LSG">
+        <input type="submit" name="id1" value="GT">
+
+        <br><br>
+        </form>
+
+        <table border="solid">
+            <tr>
+                <th align="center">Ipl Team</th>
+                <th align="center">Team Score</th>
+            </tr>
+            {% for i in iplteam %}
+            <tr>
+                <td align="center">{{i.team_name}}</td>
+                <td align="center">{{i.team_score}}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+
+
+    </center>
+</body>
+</html>
+
