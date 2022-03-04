@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<center>
+    <form method="POST">
+
+
+        <br>
+        <label>EnterCityName</label>
+        <input type="text" name="id" placeholder="Enter city name to get whether report "><br><br>
+        <br>
+        <input type="submit" name="id1" value="submit">
+
+        <br><br>
+        </form>
+
+    <table border="1">
+    <tr>
+        <td>country_code</td>
+        <td>coordinate</td>
+        <td>temp</td>
+        <td>pressure</td>
+        <td>humidity</td>
+    </tr>
+    <tr>
+        <td>{{data.country_code}}</td>
+        <td>{{data.coordinate}}</td>
+        <td>{{data.temp}}</td>
+        <td>{{data.pressure}}</td>
+        <td>{{data.humidity}}</td>
+    </tr>
+
+</table>
+    </center>
+</body>
+</html>
